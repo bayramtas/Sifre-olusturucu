@@ -37,7 +37,7 @@ namespace ŞifreOuşturucu
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(12, 133);
+            this.button1.Location = new System.Drawing.Point(135, 73);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(124, 58);
             this.button1.TabIndex = 0;
@@ -48,7 +48,7 @@ namespace ŞifreOuşturucu
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox1.Location = new System.Drawing.Point(208, 159);
+            this.textBox1.Location = new System.Drawing.Point(135, 164);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(233, 32);
             this.textBox1.TabIndex = 2;
@@ -74,7 +74,7 @@ namespace ŞifreOuşturucu
             "14",
             "15",
             "16"});
-            this.comboBox1.Location = new System.Drawing.Point(12, 104);
+            this.comboBox1.Location = new System.Drawing.Point(135, 31);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(142, 23);
             this.comboBox1.TabIndex = 3;
@@ -82,7 +82,7 @@ namespace ŞifreOuşturucu
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 76);
+            this.label2.Location = new System.Drawing.Point(57, 39);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(38, 15);
             this.label2.TabIndex = 4;
@@ -99,6 +99,7 @@ namespace ŞifreOuşturucu
             this.Controls.Add(this.button1);
             this.Name = "Form1";
             this.Text = "Şifre oluşturucu";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

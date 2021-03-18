@@ -20,7 +20,8 @@ namespace ŞifreOuşturucu
         private void button1_Click(object sender, EventArgs e)
         {
             string uzunluk = comboBox1.Text;
-            int enfazla = Convert.ToInt32(uzunluk);
+            int v = Convert.ToInt32(uzunluk);
+            int enfazla = v;
 
 
             Random rastgele = new Random();
@@ -32,6 +33,16 @@ namespace ŞifreOuşturucu
                 sonuç += karakterler[rastgele.Next(karakterler.Length)];
             }
             textBox1.Text = sonuç;
+        }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
